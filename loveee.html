@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Message</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef8e6;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            background-color: #ff6f61;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e85a4f;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Click the button to reveal a special message ❤️</p>
+    <button onclick="showMessage()">Click Me</button>
+    <div id="message">I love you so much, baby Kolorraine ❤️</div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
